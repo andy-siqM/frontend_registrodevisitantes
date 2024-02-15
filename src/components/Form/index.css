@@ -1,21 +1,18 @@
-h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#area
+{
+  position: relative;
+  left: 37%;
+  top: 29%;
+  width: 20px;
+  height: 270px;
 }
-
-h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#area #formulario
+{
+  position: absolute;
+  display: block;
 }
-
-body{
-    display: flex;
-    flex-wrap: wrap;
+fieldset
+{
+  width: 300px;
+  height: 250px;
 }
-input {
-    width: 100%;
-}
-input.text {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-  }
